@@ -1,0 +1,81 @@
+How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+
+I can use FC command with two file names to receive a list of differences.
+
+.....
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+It will allow me to have easy access to all versions of the file.
+
+
+git log
+
+git diff - compare different versions of a file within git.
+- use two commit ID as "file names"
+- see the changes made between the two commits
+-
+
+How Often to Commit:
+make one commit per logical change
+
+.....
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+I can decide when to commit becase it has a logical meaning.
+
+
+Git Commits Across Multiple Files
+
+commit will save a version of every file in my repository
+git log -stat
+-stat option, gives some statistics about which files have changed in each commit.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+repository allow see connected changes in few files done with the same commit
+
+Cloning And Exploring The Repo
+
+git clone
+This command allowing you to copy an entire repository from one computer to the other.
+(create a clone of repository)
+
+Cloning a Repository
+To clone a repository, run git clone followed by a space and the repository URL.
+
+Asteroids URL
+Use the following url to clone the Asteroids repository: https://github.com/udacity/asteroids.git
+
+Exiting git log
+To stop viewing git log output, press q (which stands for quit).
+
+Getting Colored Output
+To get colored diff output, run git config --global color.ui auto
+
+Copying and Pasting from the Command Line
+To complete this quiz, you'll want to copy and paste some commit ids.
+
+Windows
+To copy and paste within Git Bash, follow the instructions on this page.
+
+.....
+How can you use the commands git log and git diff to view the history of files?
+
+I use git log to find a commit which is related to a change I am looking for
+I use git diff to check what changes I did between two commits.
+
+git checkout
+it's a sort of restoring a previous version
+resetting all of your files to how they were at the time that commit was made.
+
+How might using version control make you more confident to make changes that could break something?
+
+I can always go back to any version and restore it to check where is a problem located.
+
+
+.....
+How Do You Want to Use Git?
+Totrack changes in my projects
+to make easer to test different options

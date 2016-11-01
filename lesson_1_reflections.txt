@@ -11,8 +11,9 @@ It will allow me to have easy access to all versions of the file.
 
 
 git log
+or
 
-git diff - compare different versions of a file within git.
+git diff -> compare different versions of a file within git.
 - use two commit ID as "file names"
 - see the changes made between the two commits
 -
@@ -36,8 +37,10 @@ git log -stat
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 repository allow see connected changes in few files done with the same commit
 
+
 Cloning And Exploring The Repo
 
+.....
 git clone
 This command allowing you to copy an entire repository from one computer to the other.
 (create a clone of repository)
@@ -66,6 +69,7 @@ How can you use the commands git log and git diff to view the history of files?
 I use git log to find a commit which is related to a change I am looking for
 I use git diff to check what changes I did between two commits.
 
+.....
 git checkout
 it's a sort of restoring a previous version
 resetting all of your files to how they were at the time that commit was made.
